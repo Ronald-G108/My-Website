@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    background-image: url("Background.png");
+    filter: opacity(90%);
+    transition: 1.5s;
+    transition-delay: .25s; 
+} /*Tells the body to have no outlines*/
+
+.Bg {
+    background-image: url("Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 100%;
+    background-size: cover ;
+    margin: 0px;
+
+} /*Tells the first part of the page about outlines and overall dimensions */
+
+
+#Head {
+    margin-left: 40% ;
+    max-width: 300px;
+    display: block;
+} /*The logo that you see in the top of the page, shows it to center with the page*/
+
+
+#Introduction {
+    font-size: 25px;
+    text-align: center;
+    color:black;
+} /*Lead/1st Paragraph of my blog*/
+
+
+
+a {
+    color: #ffff;
+    text-decoration: none;
+    transition: 1.5s;
+} /*This gives the Hyperlink a more aesthetic feel than regular*/
+
+
+a:hover {
+    background-color: grey;
+    filter: opacity(50%);
+    transition: 1s;
+} /*Creates to an aesthetic hover effect on the hyperlink*/
+
+
+#Paragraph1 {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    transition: 1.5s;
+} /*The content page of my blog*/
+
+
+#Paragraph1:hover {
+    background-color: whitesmoke;
+    filter: opacity(50%);
+    transition: 1.5s;
+    transition-delay: .25s;
+} /*Shows Paragraph1 to transition to the effect you see*/
+
+
+#Display1 {
+    display: block;
+    margin: 0 auto; 
+    max-width: 500px;
+    filter: opacity(50%);
+    transition: 1.5s;
+} /*Makes the GIF responsive to browser scaling*/
+
+
+#Display1:hover {
+    border: 3px solid #8C92AC; 
+    filter: opacity(100%);
+    max-width: 100%;
+    transition: 2s;
+} /*Scales the GIF to the effect you see*/
+
+#MyTalents {
+    display: block;
+    margin: 0 auto; 
+    max-width: 300px;
+    margin-top: 3%;
+    filter: opacity(100%);
+}
+
+#ChessLogo {
+    display: block;
+    margin: 0 auto; 
+    max-width: 300px;
+    margin-top: 3%;
+    filter: opacity(100%);
+}
+#Chess {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+#ChessP {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    filter: opacity(100%);
+    transition: 1.5s;
+}
+#ChessP:hover {
+    background-color: whitesmoke;
+    filter: opacity(50%);
+    transition: 1.5s;
+    transition-delay: .25s;
+}
+#CodingLogo {
+    display: block;
+    margin: 0 auto; 
+    max-width: 300px;
+    margin-top: 3%;
+    filter: opacity(100%);
+} 
+#Coding {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+#CodingP {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    filter: opacity(100%);
+    transition: 1.5s;
+}
+#CodingP:hover {
+    background-color: whitesmoke;
+    filter: opacity(50%);
+    transition: 1.5s;
+    transition-delay: .25s;
+}
+
+
